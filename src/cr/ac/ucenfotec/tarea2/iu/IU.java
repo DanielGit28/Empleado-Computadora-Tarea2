@@ -15,7 +15,9 @@ public class IU {
         output.println("4. Listar computadoras");
         output.println("5. Salir");
     }
-
+    /**
+     * @return input.nextInt() el entero que devuelve es la entrada para ingresar un numero entero
+     */
     public int leerOpcion() {
         output.println("Su opción es: ");
         return input.nextInt();
@@ -23,6 +25,9 @@ public class IU {
     public void imprimirMensaje(String mensaje) {
         output.println(mensaje);
     }
+    /**
+     * @return input.next() la cadena de caracteres que devuelve es la entrada para ingresar una cadena de caracteres
+     */
     public String leerTexto() {
         return input.next();
     }

@@ -20,6 +20,10 @@ public class Controlador {
         } while (opcion!=5);
     }
 
+    /**
+     *
+     * @param opcion el entero que procesa el switch con diferentes opciones
+     */
     private void procesarOpcion(int opcion) {
         switch(opcion) {
             case 1:
