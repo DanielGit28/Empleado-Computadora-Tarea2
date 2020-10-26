@@ -4,7 +4,10 @@ import cr.ac.ucenfotec.tarea2.bl.entidades.Computadora;
 import cr.ac.ucenfotec.tarea2.bl.entidades.Empleado;
 
 import java.util.ArrayList;
-
+/**
+ * @author Daniel Zúñiga Rojas
+ * @version 1.0
+ */
 public class Gestor {
     ArrayList<Empleado> empleados = new ArrayList<> ();
     ArrayList<Computadora> computadoras = new ArrayList<> ();

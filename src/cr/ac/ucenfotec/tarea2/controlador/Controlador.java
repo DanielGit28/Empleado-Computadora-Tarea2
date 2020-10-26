@@ -6,7 +6,10 @@ import cr.ac.ucenfotec.tarea2.bl.logica.Gestor;
 import cr.ac.ucenfotec.tarea2.iu.IU;
 
 import java.util.ArrayList;
-
+/**
+ * @author Daniel Zúñiga Rojas
+ * @version 1.0
+ */
 public class Controlador {
     private IU interfaz = new IU();
     private Gestor gestor = new Gestor();

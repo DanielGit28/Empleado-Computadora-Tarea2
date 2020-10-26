@@ -1,5 +1,8 @@
 package cr.ac.ucenfotec.tarea2.bl.entidades;
-
+/**
+ * @author Daniel Zúñiga Rojas
+ * @version 1.0
+ */
 public class Empleado {
     private String identificacion;
     private String nombre;
